@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.debug *{
+    border: 1px dashed;
+}
+
+/* #region utilities */
+
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+#top_container{
+    display:flex;
+    height: 80%;
+
+}
+#bottom_container{
+    height: 20%;
+
+}
+/* #region sidebar */
+
+#sidebar{
+    width: 245px;
+}

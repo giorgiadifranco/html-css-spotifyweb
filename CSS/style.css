@@ -96,7 +96,7 @@ a{
     width:95%;
     gap: 1rem;
     padding-left:5%;
-    /grid-template-columns: repeat(auto-fill, minmax(var(--min-column-width), 1fr));
+    
  }
 
  .box{
@@ -166,13 +166,14 @@ a{
 
     /* spotify medium (tablet)*/
     @media screen and (min-width: 768px) and (max-width: 991px) {
-
+            /* la griglia si compone di 4 elementi in prima riga e 2 in seconda riga*/
     }
 
 
 
     /* spotify small (large mobile)*/
     @media screen and (min-width: 600px) and (max-width: 768px){
+                /* la griglia si compone di 2e*3r */
 
     }
 
@@ -180,5 +181,6 @@ a{
 
     /* spotify xs (mobile) */
     @media screen and (min-width: 576px) and (max-width: 600px){
-
+        
+        /* grid 2e*3r --> meny_y closed (only icon) */
     }

@@ -37,12 +37,16 @@ ul{
         padding-left:0.5rem;
     }*
 }
+
+a{
+    text-decoration: none;
+}
 /* #enregion utilities */
 
 /* #region sidebar */
 
 #sidebar{
-    width: 100%;
+    width: 40%;
         /*padding-left: 0.5rem;
     padding-right:0.5rem;*/
 }
@@ -70,3 +74,10 @@ ul{
 }
 
 /* #endregion sidebar */
+
+/* #region content */
+
+
+
+
+/* #endregion content */

@@ -46,7 +46,7 @@ a{
 /* #region sidebar */
 
 #sidebar{
-    width: 40%;
+    width: 400px;
         /*padding-left: 0.5rem;
     padding-right:0.5rem;*/
 }
@@ -77,6 +77,26 @@ a{
 
 /* #region content */
 
+#content{
+    width: 100%;
+}
+.grid{
+    display: grid;
+    flex-wrap: ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    width:100%;
+    gap: 1rem;
+ }
+
+ .box{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border-color: red;
+    
+    
+ }
 
 
 

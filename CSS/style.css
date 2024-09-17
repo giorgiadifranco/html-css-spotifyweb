@@ -27,6 +27,7 @@ body{
 
 }
 #bottom_container{
+    position:absolute;
     height: 20%;
 
 }
@@ -46,7 +47,9 @@ a{
 /* #region sidebar */
 
 #sidebar{
+    
     width: 400px;
+    height: 60vh;
         /*padding-left: 0.5rem;
     padding-right:0.5rem;*/
 }
@@ -69,7 +72,10 @@ a{
 
 .footer_sidebar{
     
-    padding-top:2.5rem
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top:1rem;
     /* con aggiunta della scrollbar è possibile aumentare il padding (?) */
 }
 
@@ -79,6 +85,7 @@ a{
 
 #content{
     width: 100%;
+    overflow: auto;
 }
 .grid{
     display: grid;
@@ -101,3 +108,52 @@ a{
 
 
 /* #endregion content */
+
+/* #region bottom */
+
+#bottom{
+    width: 100%;
+   
+    
+    background-color: coral;
+    
+}
+.control_section{
+    padding: 0.5rem;
+    display:flex;
+    justify-content: center;
+    
+
+    .col-3{
+        width: calc((100%/12)*3);
+    }
+    
+    .col-6{
+        width: calc((100%/12)*6);
+    }
+    .botton_loading{
+        padding: 0.5rem;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .botton{
+        display: flex;
+        padding: 1rem;
+        justify-content: space-between;
+       
+    }
+
+    .listening{
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    .control{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+}
+
+/* #endregion boottom */

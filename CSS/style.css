@@ -167,6 +167,25 @@ a{
     /* spotify medium (tablet)*/
     @media screen and (min-width: 768px) and (max-width: 991px) {
             /* la griglia si compone di 4 elementi in prima riga e 2 in seconda riga*/
+            .grid{
+                display: grid;
+                display: flex;
+                flex-wrap: wrap;
+                grid-template-columns: 1fr 1fr 1fr 1fr ;
+                grid-template-rows: 1fr 1fr;
+                width:95%;
+                gap: 1rem;
+                padding-left:5%;
+                
+             }
+             .box{
+                height: 150px;
+                width: 150px;
+                background-color: rgb(243, 224, 119);
+                border-color: red;
+                
+                
+             }
     }
 
 
@@ -174,6 +193,25 @@ a{
     /* spotify small (large mobile)*/
     @media screen and (min-width: 600px) and (max-width: 768px){
                 /* la griglia si compone di 2e*3r */
+                .grid{
+                    display: grid;
+                    display: flex;
+                    flex-wrap: wrap;
+                    grid-template-columns: 1fr 1fr ;
+                    grid-template-rows: 1fr 1fr 1fr 1fr;
+                    width:95%;
+                    gap: 1rem;
+                    padding-left:5%;
+                    
+                 }
+                 .box{
+                    height: 150px;
+                    width: 150px;
+                    background-color: rgb(243, 224, 119);
+                    border-color: red;
+                    
+                    
+                 }
 
     }
 

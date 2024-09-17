@@ -23,17 +23,50 @@ body{
 #top_container{
     display:flex;
     height: 80%;
+    width: 100%;
 
 }
 #bottom_container{
     height: 20%;
 
 }
+ul{
+    list-style-type: none;
+    li{
+        padding-right:0.5rem;
+        padding-left:0.5rem;
+    }*
+}
 /* #enregion utilities */
 
 /* #region sidebar */
 
 #sidebar{
-    width: 400px;
+    width: 100%;
+        /*padding-left: 0.5rem;
+    padding-right:0.5rem;*/
 }
+.logo{
+    padding:2rem;
+    background-color: greenyellow;
+}
+.list_y{
+    
+    li{
+        padding-top:0.5rem;
+        padding-bottom: 0.5rem;
+
+    }
+    
+    
+}
+
+/* footer sidebar */
+
+.footer_sidebar{
+    
+    padding-top:2.5rem
+    /* con aggiunta della scrollbar è possibile aumentare il padding (?) */
+}
+
 /* #endregion sidebar */

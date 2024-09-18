@@ -55,7 +55,7 @@ a{
 #sidebar{
     
     width: 400px;
-    height: 60vh;
+    height: 80vh;
     font-weight: 200;
     background-color: rgba(87, 84, 84, 0.897);
         /*padding-left: 0.5rem;
@@ -172,6 +172,7 @@ a{
     width:98%;
     gap: 2rem;
     padding-left:5%;
+    padding-top: 2rem;
     
     
  }
@@ -179,21 +180,21 @@ a{
  .box{
     height: 240px;
     width: 170px;
-    background-color: aquamarine;
-    border-color: red;
+    background-color: rgb(78, 90, 86);
+    border-style: ;
 
     .card{
         display: flex;
         flex-direction: column;
         align-items: center;
-
+    }
        
     
     
     
  }
  .description_title{
-    padding-bottom: 1.5rem;
+    padding-bottom: 25rem;
  }
 
 

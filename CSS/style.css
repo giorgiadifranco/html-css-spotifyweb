@@ -36,7 +36,7 @@ ul{
     li{
         padding-right:0.5rem;
         padding-left:0.5rem;
-    }*
+    }
 }
 
 a{
@@ -62,9 +62,13 @@ a{
     li{
         padding-top:0.5rem;
         padding-bottom: 0.5rem;
+        width: 100%;
+        
 
     }
-    
+    h3{
+        width: 70%;;
+    }
     
 }
 
@@ -87,21 +91,40 @@ a{
     width: 100%;
     overflow: auto;
 }
+.menu_x{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+}
+.r_m_X{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: space-between;
+    
+}
+.botton-x{
+    padding:1rem;
+    background-color: blueviolet;
+}
 .grid{
     display: grid;
     display: flex;
     flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr ;
-    width:95%;
-    gap: 1rem;
+    width:98%;
+    gap: 2rem;
     padding-left:5%;
+    
     
  }
 
  .box{
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     background-color: aquamarine;
     border-color: red;
     
@@ -223,6 +246,6 @@ a{
         /* grid 2e*3r --> meny_y closed (only icon) */
 
         #sidebar{
-            display: none;
+            width: 50px;
         }
     }

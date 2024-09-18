@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Web</title>
     <link rel="stylesheet" href="./CSS/style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="debug">
     <!--1-container con altezza fissa-->
@@ -40,14 +40,15 @@
                 LOGO
                 <!--inserire padding-->
                 <!--logo--con caratteristica fissa-->
+                <i class="fa-brands fa-spotify"></i> <!--Logo per xs-->
             </div>
 
             <div class="menu_y">
                 <!--add icons-unlisted-padding-->
                 <ul class="list_y">
-                    <li>Menu</li>
-                    <li>Cerca</li>
-                    <li>La tua libreria</li>
+                    <li><i class="fa-solid fa-house"></i><h3>Menu</h3></li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i><h3>Cerca</h3></li>
+                    <li><i class="fa-solid fa-lines-leaning"></i><h3>La tua libreria</h3></li>
                 </ul>
                 
                     <!--home-cerca-menu-->
@@ -65,7 +66,7 @@
                 </div>
                 <!--personal playlist-->
                 <div class="personal_playlist">
-                    <!--add padding list-unlisted-->
+                           <!--add padding list-unlisted-->
                     <ul class="list_y">
                         <li>Nome Playlst</li>
                         <li>Nome Playlst</li>
@@ -78,6 +79,7 @@
                     </ul>
                 </div>
             <div class="footer_sidebar">
+                
                 <div class="download">
                     Installa app
                     <!--add scon and after add bar-->
@@ -95,6 +97,17 @@
                 <!--modificare border nello span-->
                 <span> <a href="#">EFFETTUA L'UPGRADE</a></span>
             </div>
+            <nav class="menu_x">
+                <div class="row r_m_X">
+                <!--grid?-->
+                <div class="botton-x"> <span>IN EVIDENZA</span> </div>
+                <div class="botton-x"> PODCAST </div>
+                <div class="botton-x"> CLASSIFICHE </div>
+                <div class="botton-x"> GENERI E MOOD</div>
+                <div class="botton-x"> NUOVE USCITE</div>
+                <div class="botton-x">SCOPRI </div>
+                </div>
+            </nav>
             <div class="main_content">
                 <!--creare grid--->
                 <div class="recently">
@@ -104,7 +117,7 @@
                         </h2>
                     </strong>
                     <div class="row grid">
-                        <div class="box">lorem</div>
+                        <div class="box">lorem</div>                      
                         <div class="box">lorem</div>
                         <div class="box">lorem</div>
                         <div class="box">lorem</div>

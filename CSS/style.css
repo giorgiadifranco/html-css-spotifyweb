@@ -111,7 +111,26 @@ a{
 
 #content{
     width: 100%;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.header_content{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    width: 100%;
+
+    span{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding:1rem;
+        border-radius: 30px;
+        width: 300px;
+        h3{
+            display: inline-block;
+        }
+    }
 }
 .menu_x{
     display: flex;
@@ -240,8 +259,27 @@ a{
                 background-color: rgb(243, 224, 119);
                 border-color: red;
                 
-                
-             }
+            }
+ /* header content */
+            .header_content{
+                display: flex;
+                justify-content: space-around;
+                padding-right: 2rem;
+                padding-left: 2rem;
+                width: 100%;
+    
+                span{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    padding:1rem;
+                    border-radius: 30px;
+                    width: 300px;
+                    h3{
+                        display: inline-block;
+                    }
+                }
+            }
     }
 
 
@@ -268,6 +306,25 @@ a{
                     
                     
                  }
+                 .header_content{
+                    display: flex;
+                    justify-content: space-around;
+                    padding-right: 2rem;
+                    padding-left: 2rem;
+                    width: 100%;
+        
+                    span{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        padding:1rem;
+                        border-radius: 30px;
+                        width: 300px;
+                        h3{
+                            display: inline-block;
+                        }
+                    }
+                }
 
     }
 
@@ -293,4 +350,22 @@ a{
             }
             
         }
+        .header_content{
+            display: flex;
+            justify-content: space-around;
+            padding-right: 2rem;
+            padding-left: 2rem;
+            width: 100%;
+
+            span{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding:1rem;
+                border-radius: 30px;
+                width: 5300px;
+                
+            }
+        }
+
     }

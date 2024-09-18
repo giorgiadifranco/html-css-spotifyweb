@@ -360,6 +360,15 @@ a{
         #sidebar{
             width: 70px;
 
+            .list_y{
+                h3{
+                    display: none;
+                }
+            }
+            .playlist{
+                display: none;
+            }
+
             .logo{
                 width: 60px;
             }

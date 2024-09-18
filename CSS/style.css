@@ -70,20 +70,62 @@ a{
 }
 .list_y{
     
-    .home{
+
+    width: 90%;
+    
+    img{
+        width: 15%;
+        float: left;
+    }
+   
+  
+    }
+    .crea{
+        display: flex;
+        padding-top:1rem;
+        padding-bottom: 2rem;
+        align-items: center;
+        
+        h5{
+            padding-left: 1rem;
+        }
+    }
+    .greybox{
+        padding: ;
+        width: 40px;
+        height: 40px;
+        background-color: darkgray;
+        display: flex;
+        justify-content: center;
+        float: left;
+
+        
+    }
+    .fa-plus{
+            padding: 0.5rem;
+           
+
+
+    }
+    
+    /*.home{
         display: flex;
         align-items: center;
-    }
+        width: 90%;
+    
 
     img{
             padding:0.5rem;
             width: 3rem;
                     }
-    li{ 
+
+
+                }*/
+    /*li{ 
         padding-top:0.5rem;
         padding-bottom: 0.5rem;
         width: 100%;
-        display: flex;
+        display: flex;*/
         
         
         

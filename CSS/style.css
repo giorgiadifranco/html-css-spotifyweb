@@ -5,7 +5,7 @@
 }
 
 .debug *{
-    border: 1px dashed;
+    /border: 1px dashed;
 }
 img{
     max-width: 100%;
@@ -58,8 +58,10 @@ a{
     height: 80vh;
     font-weight: 200;
     background-color: rgb(58, 57, 57);
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     padding-right:0.5rem;
+    overflow-y: visible;
+    overflow-x: hidden;
 }
 .logo{
     
@@ -116,7 +118,7 @@ a{
         padding-bottom: 0.5rem;
         align-items: center;
         
-        h5{
+        h4{
             padding-left: 1rem;
         }
     }
@@ -226,12 +228,14 @@ a{
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
+    background-color: gray;
 }
 .header_content{
     display: flex;
     justify-content: flex-end;
     padding-right: 2rem;
     width: 100%;
+    background-color: black;
 
     span{
         display: flex;
@@ -239,9 +243,13 @@ a{
         justify-content: center;
         padding:1rem;
         border-radius: 30px;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
         width: 300px;
-        h3{
+        h4{
             display: inline-block;
+            color: white;
         }
     }
 }
@@ -249,7 +257,7 @@ a{
     display: flex;
     width: 100%;
     justify-content: center;
-    padding: 0.5em;
+    padding:;
    
 }
 .r_m_X{
@@ -263,9 +271,15 @@ a{
 }
 .botton-x{
     position: relative;
-    padding:0.5rem;
-    background-color: rgb(182, 177, 187);
+    padding:;
+    background-color: rgb(42, 42, 43);
     cursor: pointer;
+    
+   
+    h5{
+        color: rgb(146, 144, 144);
+    }
+    
 }
 .botton-x:active{
     position: absolute;
@@ -273,6 +287,11 @@ a{
     height:3px;
     color: green;
 }
+
+.recently, .foryou, .hit{
+    padding-top: 3rem;
+}
+
 .grid{
     display: grid;
     display: flex;
@@ -299,6 +318,14 @@ a{
         align-items: center;
     }
        
+    h4{
+        padding-top: 1rem;
+        color:white;
+    }
+
+    h5{
+        color: rgb(134, 130, 130);
+    }
     
     
     
@@ -307,7 +334,14 @@ a{
     padding-bottom: 2rem;
  }
 
-
+.foryou{
+    h4{
+        padding-top: 1rem;
+    }
+}
+.radius_img{
+    border-radius: 50%;
+}
 
 /* #endregion content */
 
@@ -398,6 +432,8 @@ a{
                 justify-content: space-around;
                 padding-right: 2rem;
                 padding-left: 2rem;
+                padding-bottom: rem;
+                padding-top: 4rem;
                 width: 100%;
     
                 span{

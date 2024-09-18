@@ -57,13 +57,17 @@ a{
     width: 400px;
     height: 80vh;
     font-weight: 200;
-    background-color: rgba(87, 84, 84, 0.897);
+    background-color: rgb(58, 57, 57);
     padding-left: 0.5rem;
     padding-right:0.5rem;
 }
 .logo{
+    
+    img{
+        width: 70%;
+    }
     padding:2rem;
-    background-color: greenyellow;
+    background-color: rgba(13, 13, 13, 0.897);
     .logo_sm{
         display: none;
     }
@@ -77,12 +81,13 @@ a{
     img{
         width: 10%;
         float: left;
-        padding-right
+        padding-top:0.2rem;
     }
-    h4{
-        padding-left: 3rem;
+    h5{
+        padding-left: 2rem;
         padding-top:0.5rem;
         width: 80%;
+        color: rgb(167, 163, 163);
       
     
     }
@@ -98,10 +103,11 @@ a{
 /* PLAYLIST */
 
 .title_section{
-    h4{
+    h5{
         padding-top: 0.5rem;
-        padding-bottom: 0.5;
-        padding-left:0.5;
+        padding-top: 0.5rem;
+        padding-left:0.5rem;
+        color: white;
     }
 }
     .crea{

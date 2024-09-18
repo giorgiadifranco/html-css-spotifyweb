@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -37,19 +40,38 @@
       
         <div id="sidebar">
             <div class="logo">
-                LOGO
-                <!--inserire padding-->
+                    <!--inserire padding-->
                 <!--logo--con caratteristica fissa-->
-                <i class="fa-brands fa-spotify"></i> <!--Logo per xs-->
+                <a href="#">
+                    <!--i class="fa-brands fa-spotify"></i-->
+                    <img class="logo_lg" src="./img/logo.svg">
+                    <img class="logo_sm" src="./img/logo-small.svg">
+                    
+                </a> <!--Logo per xs-->
             </div>
 
             <div class="menu_y">
                 <!--add icons-unlisted-padding-->
-                <ul class="list_y">
-                    <li><i class="fa-solid fa-house"></i><h3>Menu</h3></li>
-                    <li><i class="fa-solid fa-magnifying-glass"></i><h3>Cerca</h3></li>
-                    <li><i class="fa-solid fa-lines-leaning"></i><h3>La tua libreria</h3></li>
-                </ul>
+                <div class="list_y"->
+                    
+                        <span class="home">
+                            <a href="#">
+                                <img src="./img/home.svg" alt="home">
+                                <h3>Home</h3>
+                            </a>
+                        </span>
+                    
+                    <li>
+                        <a href="#">
+                            <h3>Cerca</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>La tua libreria</h3>
+                        </a>
+                    </li>
+                </div>
                 
                     <!--home-cerca-menu-->
             </div>

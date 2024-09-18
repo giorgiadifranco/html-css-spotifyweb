@@ -13,6 +13,9 @@
 body{
     overflow: hidden;
     height: 100vh;
+    font-family: "Roboto", sans-serif;
+    
+    font-style: normal;
 }
 
 #content{
@@ -50,24 +53,43 @@ a{
     
     width: 400px;
     height: 60vh;
+    font-weight: 200;
+    background-color: rgba(87, 84, 84, 0.897);
         /*padding-left: 0.5rem;
     padding-right:0.5rem;*/
 }
 .logo{
     padding:2rem;
     background-color: greenyellow;
+    .logo_sm{
+        display: none;
+    }
 }
 .list_y{
     
-    li{
+    .home{
+        display: flex;
+        align-items: center;
+    }
+
+    img{
+            padding:0.5rem;
+            width: 3rem;
+                    }
+    li{ 
         padding-top:0.5rem;
         padding-bottom: 0.5rem;
         width: 100%;
+        display: flex;
+        
+        
+        
         
 
     }
     h3{
         width: 70%;;
+        padding: 0.5rem
     }
     
 }
@@ -186,10 +208,18 @@ a{
 /* #endregion boottom */
 
 /* #region media */
+    /* spotify large (desktop) */
+    @media screen and (min-widht: 1100px){
+
+  
+    }
 
     /* spotify medium (tablet)*/
-    @media screen and (min-width: 768px) and (max-width: 991px) {
+    @media screen and (min-width: 768px) and (max-width: 1099px) {
             /* la griglia si compone di 4 elementi in prima riga e 2 in seconda riga*/
+            
+            
+
             .grid{
                 display: grid;
                 display: flex;
@@ -246,6 +276,18 @@ a{
         /* grid 2e*3r --> meny_y closed (only icon) */
 
         #sidebar{
-            width: 50px;
+            width: 70px;
+
+            .logo{
+                width: 60px;
+            }
+
+            .logo_lg{
+                display: none;
+            }
+            .logo_sm{
+                width: 100%;
+            }
+            
         }
     }

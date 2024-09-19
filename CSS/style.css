@@ -320,7 +320,8 @@ a{
     justify-content: center;
     
     background-color: var(--spf--primary);
-    cursor: pointer;
+        cursor: pointer;
+        
 
       
    
@@ -328,13 +329,24 @@ a{
         color:var(--spf--grey);
     }
     
-    .span{ 
+    /*.span{ 
         padding-left: 0.5rem;
         width: 40px;
         height: 5px;
         background-color: green;
         
-    } 
+    } */
+
+    .botton-x:hover{
+
+        a:active{
+            text-decoration: var(--spf--green);
+
+        }
+        
+            
+        
+    }
 }
 /*.botton-x:active{
     position: absolute;
@@ -666,6 +678,8 @@ a{
                     flex-wrap: wrap;
                     width: 85%;
                     justify-content: space-around;
+
+                   
                     
                     
                 }

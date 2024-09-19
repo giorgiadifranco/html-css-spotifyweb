@@ -538,6 +538,18 @@ a{
             -webkit-appearance: none;
     }
 }
+    .time{
+        input[type="range"]{
+            -webkit-appearance: none;
+            appearance: none;
+            width: 200px;
+            height: 5px;
+            background: var(--spf--grey);
+            border-radius: 5px;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+}
 
 /* #endregion boottom */
 

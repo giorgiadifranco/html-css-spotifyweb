@@ -551,6 +551,30 @@ a{
 
         #sidebar{
             width: 70px;
+            height: ;
+            
+            
+            .logo{
+                
+                width: 100%;
+               
+                
+                
+            }
+            .card_logo{
+                width: 100%;
+                padding: 0.5rem;
+                padding-left: 0;
+      
+            }
+
+            .logo_lg{
+                display: none;
+            }
+            .logo_sm{
+                width: 100%;
+                display: block;
+            }
 
             .menu_y{
                 h5{
@@ -583,30 +607,21 @@ a{
         
             .playlist{
                 display: none;
+                
             }
             
+            .footer_sidebar{
+                h5{
+                    display: none;
+                }
+                width: 100%;
+                padding-top: 19rem;
 
-            .logo{
+                img{ 
+                    width: 40%}
                 
-                width: 100%;
-               
-                
-                
-            }
-            .card_logo{
-                width: 100%;
-                padding: 0.5rem;
-                padding-left: 0;
-      
             }
 
-            .logo_lg{
-                display: none;
-            }
-            .logo_sm{
-                width: 100%;
-                display: block;
-            }
             
         }
         .header_content{

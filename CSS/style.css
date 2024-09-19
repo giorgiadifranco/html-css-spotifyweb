@@ -431,13 +431,13 @@ a{
             img{
             width: 30%;
             padding-right: 0.5rem;
-            /* no proprietà float--> modifica dimensione immagine*/
+            
             
         }
 
            
         
-        }*/
+        }
 
         
     }
@@ -455,15 +455,19 @@ a{
        
     }
 
-    .listening{
+    /*.listening{
         display: flex;
         justify-content: flex-start;
         
-    }
+    }*/
     .control{
         display: flex;
         justify-content: flex-end;
 
+    }
+    .volume{
+
+        input[type=range;]
     }
 }
 

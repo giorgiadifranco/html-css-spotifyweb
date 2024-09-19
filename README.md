@@ -29,3 +29,16 @@ https://www.w3schools.com/css/css_overflow.asp
 https://www.w3schools.com/cssref/css_units.php
 
 playlist rilassante per lavorare: https://open.spotify.com/playlist/5xyript29oTlAw0cZX2WWN?si=13f0558e17604231
+
+
+## icons:
+
+<i class="fa-regular fa-circle-play"></i>
+<i class="fa-solid fa-backward-step"></i>
+<i class="fa-solid fa-forward-step"></i>
+<i class="fa-solid fa-rotate-right"></i>
+<i class="fa-solid fa-shuffle"></i>
+<i class="fa-regular fa-folder"></i>
+<i class="fa-regular fa-heart"></i>
+<i class="fa-solid fa-list-ul"></i>
+<i class="fa-solid fa-desktop"></i>

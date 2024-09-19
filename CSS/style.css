@@ -4,12 +4,21 @@
     box-sizing: border-box;
 }
 
-.debug *{
+/*.debug *{
     border: 0.1px dashed;
     border-color: red;
-}
+}*/
 img{
     max-width: 100%;
+}
+
+:root{
+    --spf--primary: #141922;
+    --spf--side-head: #000000;
+    --spf--bottom: #282828;
+    --spf--green: #73a82a;
+    --spf--grey-light: #a3a3a3;
+    --spf--grey: #666666;
 }
 
 /* #region utilities */
@@ -31,11 +40,13 @@ body{
     display:flex;
     height: 80%;
     width: 100%;
+    background-color: var(--spf--primary);
 
 }
 #bottom_container{
     position:absolute;
     height: 20%;
+    background-color: var(--spf--bottom);
 
 }
 ul{
@@ -63,7 +74,7 @@ a{
     width: 400px;
     height: 80vh;
     font-weight: 200;
-    background-color: rgb(58, 57, 57);
+    background-color:var(--spf--side-head);
     padding-left: 1rem;
     padding-right:0.5rem;
     overflow-y: visible;
@@ -258,7 +269,7 @@ a{
     width: 100%;
     padding-top:1rem;
     padding-bottom: 1rem;
-    background-color: black;
+    background-color: var(--spf--side-head);
 
     span{
         display: flex;
@@ -396,7 +407,7 @@ a{
     width: 100%;
    
     
-    background-color: rgb(204, 194, 194);
+    background-color:var(--spf--bottom);
     
 }
 .control_section{
@@ -419,9 +430,13 @@ a{
            align-items: center;
            justify-content: space-around;
             width: 30%;
+            padding-left:1rem;
+
             .fa-heart, .fa-folder{
                 width: 50%;
-                padding:0.5rem
+                padding:0.5rem;
+                color: white;
+            
             }
         }
         
@@ -429,9 +444,12 @@ a{
         .listening{
             display: flex;
             align-items: center;
+            
+            color: white;
             img{
             width: 30%;
             padding-right: 0.5rem;
+            
             
             
         }
@@ -452,7 +470,7 @@ a{
     .botton{
         display: flex;
         padding: 1rem;
-        justify-content: space-between;
+        justify-content: space-around;
        
     }
 
@@ -461,13 +479,35 @@ a{
         justify-content: flex-start;
         
     }*/
+
+/*---CENTER----*/
+    .botton_loading{
+
+        .fa-shuffle, .fa-backward-step, .fa-circle-play, .fa-forward-step, .fa-rotate-right{
+            padding: 0.5rem;
+            color: white;
+        }
+    }
+    .bar_time{
+        display: flex;
+        justify-content: center;
+        color: white;
+
+        .time{
+            width: 70%;
+            color: white;
+        }
+    }
+
     .control{
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        
 
         span, .volume{
             padding:0.5rem;
+            color: white
         }
 
     }

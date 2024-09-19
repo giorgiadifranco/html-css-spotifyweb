@@ -335,15 +335,20 @@
         <!-- CENTER -botton play-bar-->
             <div class="col-6 botton_loading">
                 <div class="botton">
-                    <span> mod</span>
-                    <span>back</span>
-                    <span>play</span>
-                    <span>next</span>
-                    <span>forward </span>
+                    <span> <i class="fa-solid fa-shuffle"></i></span>
+                    <span><i class="fa-solid fa-backward-step"></i></span>
+                    <span><i class="fa-regular fa-circle-play"></i></span>
+                    <span><i class="fa-solid fa-forward-step"></i></span>
+                    <span><i class="fa-solid fa-rotate-right"></i> </span>
                 </div>
             
                 <div class="bar_time">
-                    ------
+                    <div class="time">
+
+                    <label for="points">  </label>
+                    
+                    <input type="range" id="points" min="0" max="100" >
+                </div>
                 </div>
             </div>
             <!--RIGHT-->
@@ -360,6 +365,7 @@
                     
                     <input type="range" id="points" min="0" max="10">
                 </div>
+                
             </div>
             
         </div>

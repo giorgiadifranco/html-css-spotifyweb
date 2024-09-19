@@ -421,6 +421,7 @@ a{
             width: 30%;
             .fa-heart, .fa-folder{
                 width: 50%;
+                padding:0.5rem
             }
         }
         
@@ -463,6 +464,11 @@ a{
     .control{
         display: flex;
         justify-content: flex-end;
+        align-items: center;
+
+        span, .volume{
+            padding:0.5rem;
+        }
 
     }
     .volume{

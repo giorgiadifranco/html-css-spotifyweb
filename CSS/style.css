@@ -49,6 +49,11 @@ ul{
 a{
     text-decoration: none;
 }
+
+.col-6{
+    width: calc((100%/12)*6);
+}
+
 /* #enregion utilities */
 
 /* #region sidebar */
@@ -407,6 +412,19 @@ a{
     .left{
         display: flex;
 
+
+
+        .icon_left{
+            display: flex;
+           align-items: center;
+           justify-content: space-around;
+            width: 30%;
+            .fa-heart, .fa-folder{
+                width: 50%;
+            }
+        }
+        
+
         .listening{
             display: flex;
             align-items: center;
@@ -416,13 +434,14 @@ a{
             /* no proprietà float--> modifica dimensione immagine*/
             
         }
-        }
+
+           
+        
+        }*/
 
         
     }
-    .col-6{
-        width: calc((100%/12)*6);
-    }
+  
     .botton_loading{
         padding: 0.5rem;
         display:flex;

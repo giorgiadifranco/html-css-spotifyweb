@@ -562,6 +562,8 @@ a{
     input[type="range"]::-webkit-slider-thumb {
         -webkit-appearance: none;
 }
+    }
+}
 
 /* #endregion boottom */
 
@@ -813,6 +815,7 @@ a{
                 justify-content: center;
                 
             }
+        }
+        
 
     }
-}

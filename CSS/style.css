@@ -99,7 +99,7 @@ a{
     .card_home{
         display: flex;
         flex-direction: column;
-        align-items: ;
+        
     }
 
 /* PLAYLIST */
@@ -125,7 +125,7 @@ a{
 
     
     .greybox{
-        padding: ;
+        
         width: 40px;
         height: 40px;
         background-color: darkgray;
@@ -235,6 +235,8 @@ a{
     justify-content: flex-end;
     padding-right: 2rem;
     width: 100%;
+    padding-top:1rem;
+    padding-bottom: 1rem;
     background-color: black;
 
     span{
@@ -257,7 +259,8 @@ a{
     display: flex;
     width: 100%;
     justify-content: center;
-    padding:;
+    
+    
    
 }
 .r_m_X{
@@ -270,23 +273,34 @@ a{
     
 }
 .botton-x{
-    position: relative;
-    padding:;
-    background-color: rgb(42, 42, 43);
-    cursor: pointer;
+    position:;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
     
+    background-color: rgb(13, 13, 13);
+    cursor: pointer;
+
+      
    
     h5{
         color: rgb(146, 144, 144);
     }
     
+    .span{ 
+        padding-left: 0.5rem;
+        width: 40px;
+        height: 5px;
+        background-color: green;
+        
+    } 
 }
-.botton-x:active{
+/*.botton-x:active{
     position: absolute;
     width: 50px;
     height:3px;
     color: green;
-}
+}*/
 
 .recently, .foryou, .hit{
     padding-top: 3rem;
@@ -310,7 +324,7 @@ a{
     height: 240px;
     width: 170px;
     background-color: rgb(78, 90, 86);
-    border-style: ;
+    
 
     .card{
         display: flex;

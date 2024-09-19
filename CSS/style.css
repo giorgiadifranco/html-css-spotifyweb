@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-.debug *{
+/*.debug *{
     border: 1px dashed;
     border-color: red;
-}
+}*/
 img{
     max-width: 100%;
 }
@@ -64,12 +64,22 @@ a{
     overflow-y: visible;
     overflow-x: hidden;
 }
+
 .logo{
-    
-    img{
+
+
+    .card_logo{
+        padding:1rem;
+        padding-left: 0;
+        
+        
+        img{
         width: 70%;
     }
-    padding:2rem;
+    }
+    
+    
+    
     background-color: rgba(13, 13, 13, 0.897);
     .logo_sm{
         display: none;
@@ -100,6 +110,7 @@ a{
     .card_home{
         display: flex;
         flex-direction: column;
+        padding-left: 0.5rem;
         
     }
 
@@ -118,6 +129,7 @@ a{
         padding-top:0.5rem;
         padding-bottom: 0.5rem;
         align-items: center;
+        padding-left:0.5rem;
         
         h4{
             padding-left: 1rem;
@@ -196,6 +208,7 @@ a{
     }
     h5{ 
         padding-left: 1.5rem;
+        padding-bottom: 0.5rem;
     }
     hr{ 
         
@@ -268,8 +281,8 @@ a{
     
     display: flex;
     flex-wrap: wrap;
-    width: 65%;
-    justify-content: space-between;
+    width: 55%;
+    justify-content: space-around;
     
     
 }
@@ -537,22 +550,22 @@ a{
         /* grid 2e*3r --> meny_y closed (only icon) */
 
         #sidebar{
-            width: 100px;
+            width: 70px;
 
             .menu_y{
                 h5{
                     display: none;
                 }
                 
-                .menu_y{
-                    display: flex;
-                    a                    
-                }
+                                  
+                                      
+                
                 .list_y_menu{
                     
 
                     .card_home{
-                        width:80%;
+                        width:90%;
+                        padding-left:0;
                     }
 
                     a{ 
@@ -565,26 +578,26 @@ a{
                     }
                 }
                 
+                
             }
+        
             .playlist{
                 display: none;
             }
             
 
             .logo{
-                display: flex;
-                width: 80%;
-                padding:0;
-                padding-left: rem;
+                
+                width: 100%;
+               
+                
+                
             }
             .card_logo{
                 width: 100%;
-                padding:0;
-
-                img{
-                    width: 80%;
-                    padding:0
-                }
+                padding: 0.5rem;
+                padding-left: 0;
+      
             }
 
             .logo_lg{
@@ -624,3 +637,4 @@ a{
         }
 
     }
+}

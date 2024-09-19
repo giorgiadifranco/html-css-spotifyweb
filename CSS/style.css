@@ -518,13 +518,24 @@ a{
         span, .volume{
             padding:0.5rem;
             color: white;
-            width: 50%;
+            display: block;
+            
         }
 
     }
     .volume{
 
-        input[type=range;]
+        input[type="range"]{
+            -webkit-appearance: none;
+            appearance: none;
+            width: 80px;
+            height: 5px;
+            background: var(--spf--grey);
+            border-radius: 5px;
+            
+        }
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
     }
 }
 
